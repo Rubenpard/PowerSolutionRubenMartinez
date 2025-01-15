@@ -47,6 +47,7 @@ body {
 }
 .header__menu-item a:hover {
   text-decoration: underline;
+  opacity: 0.5;
 }
 .header .header__hamburger {
   display: none;
@@ -114,36 +115,42 @@ body {
 @media screen and (max-width: 576px) {
   .content {
     display: block;
-    background-size: 156%;
-    background-position: 85% 112%;
+    background-size: auto;
+    background-position: 72% 0;
     height: 76vh;
   }
 }
 .content__container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
 }
-.content__content {
+@media screen and (max-width: 576px) {
+  .content__container {
+    flex-direction: column;
+  }
+}
+.content__text {
   background-color: #004d38;
   padding: 88px 127px;
   left: 0px;
-  width: 55%;
+  width: 51%;
   text-align: left;
 }
 @media screen and (max-width: 768px) {
-  .content__content {
+  .content__text {
     padding: 88px 50px;
     width: 70%;
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 576px) {
-  .content__content {
-    width: 100%;
+  .content__text {
+    width: 90%;
     padding: 50px 15px;
+    border-radius: 20px;
   }
 }
 .content__title {

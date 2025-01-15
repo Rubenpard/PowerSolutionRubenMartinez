@@ -58,6 +58,7 @@ body {
 
         &:hover {
           text-decoration: underline;
+          opacity: 0.5;
         }
       }
     }
@@ -129,39 +130,40 @@ body {
 
   @include mobile{
     display:block;
-    background-size: 156%;
-    background-position: 85% 112%;
+    background-size: auto;
+    background-position: 72% 0;
     height: 76vh;
   }
 
   &__container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 
-    @media (min-width: 768px) {
-
+    @include mobile{
+      flex-direction: column;
     }
   }
 
-  &__content {
+  &__text {
     background-color: $color-primary;
     padding: 88px 127px;
     left: 0px;
-    width: 55%;
+    width: 51%;
     text-align: left;
 
     @include tablet{
       padding: 88px 50px;
       width: 70%;
+      margin-top: 40px;
     }
 
-    @include mobile{
-      width: 100%;
-      padding: 50px 15px;
+    @include mobile{ 
+      width: 90%; 
+      padding: 50px 15px; 
+      border-radius: 20px; 
     }
   }
   
