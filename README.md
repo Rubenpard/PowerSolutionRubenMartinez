@@ -10,7 +10,7 @@ Para ver el proyecto acceder mediante CMD a la ruta de una carpeta donde deseemo
 Es un proyecto de codigo libre con HTML, SASS y JavaScript.
 
 
-La pagina cuenta con una adaptacion responsive a Escritorio (1440px), pantallas (1200px), Tablet (768px) y Movil (480px).
+La pagina cuenta con una adaptacion responsive a Escritorio (1440px), pantallas (1200px), Tablet (768px) y Movil (576px).
 
 Cuenta con html semantico, metodologia BEM y procesado con sass.
 
