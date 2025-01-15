@@ -14,4 +14,6 @@ La pagina cuenta con una adaptacion responsive a Escritorio (1440px), pantallas 
 
 Cuenta con html semantico, metodologia BEM y procesado con sass.
 
+Lamentablemente no he podido nada mas que usar la fuente Open Sans solo he recibido BNP Pariba
+
 # Muchas gracias por su tiempo y que tengan un buen día!
