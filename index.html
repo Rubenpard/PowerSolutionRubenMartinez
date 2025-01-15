@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Dékuple</title>
+    <link rel="stylesheet" href="sass/styles.css">
+</head>
+<body>
+  <div class="page">
+    <!-- Encabezado -->
+  <header class="header">
+    <div class="header__container" id="header">
+      <div class="header__logo">
+        <img src="assets/logo.png" alt="ARVAL BNP Paribas Group">
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#">Questions fréquentes</a></li>
+          <li class="header__menu-item"><a href="#">Politique de confidentialité</a></li>
+        </ul>
+      </nav>
+      <div class="header__hamburger" id="hamburger" onclick="toggleMenu()">
+        <div class="header__hamburger-bar"></div>
+        <div class="header__hamburger-bar"></div>
+        <div class="header__hamburger-bar"></div>
+      </div>
+    </div>
+  </header>
+  
+    <!-- Contenido principal -->
+    <main class="main">
+      <!-- Content Section -->
+      <section class="content">
+        <div class="content__container">
+          <aside class="content__content">
+            <h1 class="content__title">DÉCOUVREZ<br> VOTRE CADEAU</h1>
+            <p class="content__subtitle">Entrez votre code et choisissez votre cadeau</p>
+            <form class="content__form" id="codeForm">
+              <label for="code" class="content__label">Code Cadeau</label>
+              <input type="text" id="code" name="code" class="content__input" placeholder="Code Cadeau" required>
+              <button type="submit" class="content__button">Découvrez</button>
+            </form>
+            <div id="message" class="message" style="display: none;"></div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  
+  </div>
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer__container">
+      <ul class="footer__menu">
+        <li class="footer__menu-item"><a href="#">Questions Fréquentes</a></li>
+        <li class="footer__menu-item"><a href="#">Mentions Légales</a></li>
+        <li class="footer__menu-item"><a href="#">Politique de confidentialité et de cookies</a></li>
+        <li class="footer__menu-item"><a href="#">Conditions Générales</a></li>
+      </ul>
+    </div>
+  </footer>
+    <script src="javaScript/javaScript.js"></script>
+  </body>
+</html>
