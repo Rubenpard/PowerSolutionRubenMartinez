@@ -14,9 +14,4 @@ La pagina cuenta con una adaptacion responsive a Escritorio (1440px), pantallas 
 
 Cuenta con html semantico, metodologia BEM y procesado con sass.
 
-HE utilizado metodologia ITCSS para estructurar los estilos.
-
-Se han aplicado reglas de WCAG como navegacion por teclado,arial label y title para accesibilidad.
-
-
 # Muchas gracias por su tiempo y que tengan un buen día!
