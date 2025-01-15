@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "BNPP";
+  src: url("../assets/font/BNPPSans-Bold.woff") format("woff2");
+  font-weight: 900;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +11,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "BNPP";
   line-height: 1.6;
   color: #004d38;
 }
@@ -41,6 +46,7 @@ body {
   margin-left: 2rem;
 }
 .header__menu-item a {
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #004d38;
   font-weight: bold;
@@ -138,6 +144,7 @@ body {
   left: 0px;
   width: 51%;
   text-align: left;
+  line-height: 1;
 }
 @media screen and (max-width: 768px) {
   .content__text {
@@ -164,6 +171,7 @@ body {
   }
 }
 .content__subtitle {
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }

@@ -1,5 +1,13 @@
 @import "./media-queries.scss";
 
+//Fuentes
+
+@font-face {
+  font-family: 'BNPP';
+  src: url('../assets/font/BNPPSans-Bold.woff') format('woff2');
+  font-weight: 900;
+}
+
 // Variables de colores y fuentes
 $color-primary: #004d38;
 $color-secondary: #ffffff;
@@ -15,7 +23,7 @@ $font-primary: 'Open Sans', sans-serif;
 }
 
 body {
-  font-family: $font-primary;
+  font-family: "BNPP";
   line-height: 1.6;
   color: $color-primary;
 }
@@ -52,6 +60,7 @@ body {
       margin-left: 2rem;
 
       a {
+        font-family:$font-primary;
         text-decoration: none;
         color: $color-primary;
         font-weight: bold;
@@ -153,6 +162,7 @@ body {
     left: 0px;
     width: 51%;
     text-align: left;
+    line-height: 1;
 
     @include tablet{
       padding: 88px 50px;
@@ -178,6 +188,7 @@ body {
   }
 
   &__subtitle {
+    font-family: $font-primary;
     font-size: 1rem;
     margin-bottom: 1.5rem;
   }
